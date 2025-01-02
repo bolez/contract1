@@ -9,6 +9,13 @@ on:
 
 env:
   PROJECT_NAME: "lll" 
+  SNF_ACCOUNT: ${{ secrets.SNF_ACCOUNT }}
+  SNF_DB_NAME: ${{ secrets.SNF_DB_NAME }}
+  SNF_PASSWORD: ${{ secrets.SNF_PASSWORD }}
+  SNF_ROLE: ${{ secrets.SNF_ROLE }}
+  SNF_USER: ${{ secrets.SNF_USER }}
+  SNF_WH_NAME: ${{ secrets.SNF_WH_NAME }}
+
 
 jobs:
   build:
