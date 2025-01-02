@@ -2,13 +2,14 @@ lll:
 
   outputs:
     dev:
-      account: "{{ env_var('SNF_ACCOUNT') }}"
-      database: "{{ env_var('SNF_DB_NAME') }}"
-      password:  "{{ env_var('SNF_PASSWORD') }}"
-      role:  "{{ env_var('SNF_ROLE') }}"
-      schema: "prod"
+      account: ik00045.ap-southeast-1
+      database: FOUNDATIONAL_DB
+      password: Gau@81294
+      role: FOUNDATIONAL_ROLE
+      schema: prod
       threads: 1
       type: snowflake
-      user: "{{ env_var('SNF_USER') }}"
-      warehouse:  "{{ env_var('SNF_WH_NAME') }}"
+      user: gauravsnow
+      warehouse: foundational_wh
+
   target: dev
